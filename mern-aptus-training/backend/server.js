@@ -22,7 +22,7 @@ connection.once('open',() =>{
     console.log("MongoDB database connection established successfully");
 })
 //Before we use files, we have to require them
-const exercisesRouter = require(./routes/exercises);
+const exercisesRouter = require('./routes/exercises');
 const usersRouter = require('./routes/users');
 //on our page, if someone goes to the exrcises page, it will load everything in 
 //the exercises file and vice versa
